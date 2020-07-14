@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#E8E8E8",
+  "navigationBarTitleText": "智慧舞场管理系统",
+  "navigationBarTextStyle": "black",
+  "navigationStyle": "custom"
+}

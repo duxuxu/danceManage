@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="appname">
+        <text class="app_motto">{{app_motto}}</text>
+    </view>
+    <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for-items="{{lunboData}}" wx:key="key">
+            <swiper-item>
+                <image src="{{item.url}}" class="slide-image" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="index_img">
+        <image src="/img/banners/yuyue.png" class="index_images"/>
+        <image src="/img/banners/myteam.png" class="index_images"/>
+        <image src="/img/banners/toolsManage.png" class="index_images"/>
+    </view>
+</view>
+

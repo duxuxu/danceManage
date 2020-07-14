@@ -1,0 +1,21 @@
+<view class="container">
+
+    <view class="userinfo">
+        <view class="appname">
+            <text class="app_motto">{{app_motto}}</text>
+        </view>
+        <!--<button open-type='getUserInfo' lang="zh_CN" bindgetuserinfo="onGotUserInfo"></button>-->
+        <view class="user_msg">
+            <open-data type="userAvatarUrl" class="userinfo-avatar"></open-data>
+            <open-data type="userNickName" lang="zh_CN" class="userinfo-nickname"></open-data>
+        </view>
+    </view>
+    <!--
+    <view class="index_img">
+        <image src="/img/banners/yuyue.png" class="index_images"/>
+        <image src="/img/banners/myteam.png" class="index_images"/>
+        <image src="/img/banners/toolsManage.png" class="index_images"/>
+    </view>-->
+
+</view>
+

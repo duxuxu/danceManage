@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="appname">
+        <text class="app_motto">{{app_motto}}</text>
+    </view>
+    <view class="index_img">
+        <image src="/img/banners/yuyue.png" class="index_images"/>
+        <image src="/img/banners/myteam.png" class="index_images"/>
+        <image src="/img/banners/toolsManage.png" class="index_images"/>
+    </view>
+</view>
+
